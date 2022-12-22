@@ -1,0 +1,4 @@
+@custom-media --reduced-motion (prefers-reduced-motion: reduce);
+@custom-media --tablet (max-width: 920px);
+@custom-media --mobile (max-width: 420px);
+@custom-media --touch (hover: none);
