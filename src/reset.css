@@ -109,6 +109,10 @@ table {
   border-spacing: 0;
 }
 
+textarea {
+  resize: none;
+}
+
 ::selection {
   background-color: var(--c-selection-bg);
   color: var(--c-selection-color);

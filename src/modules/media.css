@@ -15,14 +15,41 @@
 :--media.top {
   object-position: top;
 }
+:--media.right {
+  object-position: right;
+}
 :--media.bottom {
   object-position: bottom;
 }
 :--media.left {
   object-position: left;
 }
-:--media.right {
-  object-position: right;
+:--media.center {
+  object-position: center;
+}
+:--media.top.left {
+  object-position: top left;
+}
+:--media.top.right {
+  object-position: top right;
+}
+:--media.top.center {
+  object-position: top center;
+}
+:--media.bottom.right {
+  object-position: bottom right;
+}
+:--media.bottom.left {
+  object-position: bottom left;
+}
+:--media.bottom.center {
+  object-position: bottom center;
+}
+:--media.center.right {
+  object-position: center right;
+}
+:--media.center.left {
+  object-position: center left;
 }
 
 .icon {
