@@ -1,9 +1,10 @@
 {
   "name": "layout-classes",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "type": "module",
   "bin": {
-    "layout-classes": "bin/index.js"
+    "layout-classes": "bin/index.js",
+    "update": "bin/update.js"
   },
   "scripts": {
     "dev": "vite",
@@ -13,5 +14,8 @@
   "devDependencies": {
     "postcss-preset-env": "^7.8.3",
     "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "prompts": "^2.4.2"
   }
 }
