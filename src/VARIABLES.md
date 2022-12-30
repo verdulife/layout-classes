@@ -62,11 +62,15 @@
 | `--mobile` | max-width 26.25em |
 | `--touch` | touch devices |
 
-## Custom media [🔗](./variables/custom-media.css)
-### Media queries
+## Fonts [🔗](./variables/fonts.css)
+### Font family
 | Custom property | Description |
 | -- | -- |
-| `--reduced-motion` | prefers-reduced-motion reduce |
-| `--tablet` | max-width 57.5em |
-| `--mobile` | max-width 26.25em |
-| `--touch` | touch devices |
+| `--f-system` | system font |
+| `--f-title` | title font |
+| `--f-text` | text font |
+| `--f-code` | code font |
+
+## Spacings [🔗](./variables/spacings.css)
+### Paddings & Margins
+`Coming soon`

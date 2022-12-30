@@ -43,6 +43,11 @@ async function addResetCss() {
 }
 
 async function addVaribles() {
+  await copyFile(
+    join(rootPath, "VARIABLES.md"),
+    join(userRootPath, "VARIABLES.md")
+  );
+
   await mkdir(join(userRootPath, "variables", "utils"), {
     recursive: true,
   });
@@ -70,6 +75,10 @@ async function addVaribles() {
 }
 
 async function addLayoutClasses() {
+  await copyFile(
+    join(rootPath, "MODULES.md"),
+    join(userRootPath, "MODULES.md")
+  );
   await copyFile(join(rootPath, "all.css"), join(userRootPath, "all.css"));
 
   await mkdir(join(userRootPath, "modules"), {
