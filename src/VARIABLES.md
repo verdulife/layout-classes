@@ -7,7 +7,10 @@
   - [UI Colors](#ui-colors)
 
 [**Custom media**](#custom-media)
-  - [Head](#head)
+  - [Media queries](#media-queries)
+
+[**Fonts**](#fonts)
+  - [Media queries](#media-queries)
 <br>
 
 ---
@@ -16,7 +19,7 @@
 
 ## Colors [🔗](./variables/colors.css)
 ### Base colors
-| ClassName | Description |
+| Custom property | Description |
 | -- | -- |
 | `--c-accent` | accent color |
 | `--c-alt` | alternative color |
@@ -27,12 +30,12 @@
 | `--c-info` | info color |
 
 ### Palettes
-| ClassName | Description |
+| Custom property | Description |
 | -- | -- |
 | `--c-[color]-[100-900]` | color variations |
 
 ### Deconstruct colors
-| ClassName | Description |
+| Custom property | Description |
 | -- | -- |
 | `--value-[color]` | reference hsl color |
 | `--h-[color]` | hue value |
@@ -41,7 +44,7 @@
 | `--a-[color]` | hsl values to use inside hsl() with opatcity  |
 
 ### UI colors
-| ClassName | Description |
+| Custom property | Description |
 | -- | -- |
 | `--c-scroll-thumb` | color of scroll thumb |
 | `--c-scroll-track` | color of scroll track |
@@ -52,6 +55,18 @@
 
 ## Custom media [🔗](./variables/custom-media.css)
 ### Media queries
-| ClassName | Description |
+| Custom property | Description |
 | -- | -- |
-| `--c-accent` | accent color |
+| `--reduced-motion` | prefers-reduced-motion reduce |
+| `--tablet` | max-width 57.5em |
+| `--mobile` | max-width 26.25em |
+| `--touch` | touch devices |
+
+## Custom media [🔗](./variables/custom-media.css)
+### Media queries
+| Custom property | Description |
+| -- | -- |
+| `--reduced-motion` | prefers-reduced-motion reduce |
+| `--tablet` | max-width 57.5em |
+| `--mobile` | max-width 26.25em |
+| `--touch` | touch devices |
