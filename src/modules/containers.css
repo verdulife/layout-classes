@@ -135,13 +135,13 @@
   justify-content: flex-start;
   align-items: flex-start;
 }
-.fcenter {
-  justify-content: center;
-  align-items: center;
-}
 .fend {
   justify-content: flex-end;
   align-items: flex-end;
+}
+.fcenter {
+  justify-content: center;
+  align-items: center;
 }
 
 .sstart {
