@@ -1,12 +1,13 @@
 # Layout-classes
 
 [**Colors**](#colors)
-  - [Head](#head)
-  - [Direction](#direction)
-  - [Align](#align)
-  - [Sizes](#sizes)
-  - [Dividers](#dividers)
+  - [Base](#base-colors)
+  - [Palettes](#palettes)
+  - [Deconstruct](#deconstruct-colors)
+  - [UI Colors](#ui-colors)
 
+[**Custom media**](#custom-media)
+  - [Head](#head)
 <br>
 
 ---
@@ -14,7 +15,7 @@
 <br>
 
 ## Colors [🔗](./variables/colors.css)
-### Base
+### Base colors
 | ClassName | Description |
 | -- | -- |
 | `--c-accent` | accent color |
@@ -30,7 +31,7 @@
 | -- | -- |
 | `--c-[color]-[100-900]` | color variations |
 
-### Deconstruct
+### Deconstruct colors
 | ClassName | Description |
 | -- | -- |
 | `--value-[color]` | reference hsl color |
@@ -48,3 +49,9 @@
 | `--c-selection-color` | color of text selection |
 | `--c-input-placeholder` | color of placeholders |
 | `--c-input-elements` | accent-color color |
+
+## Custom media [🔗](./variables/custom-media.css)
+### Media queries
+| ClassName | Description |
+| -- | -- |
+| `--c-accent` | accent color |
