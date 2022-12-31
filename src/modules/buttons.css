@@ -38,10 +38,6 @@ p > :--link {
   border-radius: 0.5em;
 }
 
-:--button.outline {
-  background-color: transparent;
-}
-
 :--button.disabled {
   cursor: not-allowed;
   background-color: var(--c-neutral-500);
@@ -79,6 +75,10 @@ p > :--link {
   background-color: var(--c-info);
   color: var(--c-neutral);
   border-color: var(--c-info);
+}
+
+:--button.outline {
+  background-color: transparent;
 }
 
 :--button.accent.outline {
